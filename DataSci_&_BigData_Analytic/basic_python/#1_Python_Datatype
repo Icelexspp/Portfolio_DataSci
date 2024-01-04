@@ -1,0 +1,53 @@
+#func input result output is type str
+name = input()
+print("Hello" , name)
+a = input()
+b = input()
+print(a+b)
+
+#round การปัดให้เป็นคจำนวนเต็มที่ใกล้ที่สุด
+round(10.2)
+#output 10
+round(10.9)
+#output 11
+
+#abs(x) ค่าสัมบูรณณ์ของ x 
+#pow(x,y) : การยกกำลัง
+
+astr = input()
+a = int(astr)
+
+##EX โปรแกรมคำนวณเงิน
+p1 = int(input())
+sum1 = 1 * p1
+p5 = int(input())
+sum5 = 5*p5
+p10 = int(input())
+sum10 = 10*p10
+p20 = int(input())
+sum20 = 20*p20
+p100 = int(input())
+sum100 = 100*p100
+sum = sum1+sum5+sum10+sum20+sum100
+
+print(34, 24, 35, 170.0, sep='')
+
+print("I'm", end=' ')
+print(19, end='')
+print("yrs.", end='\n')
+
+print("Hello" + "Python" + "is easy.")
+print(34 + 24 + 35 + 170.0)
+age = 19
+output = "I'm " + str(age) + " yrs."
+print(output)
+
+summary_price = float(input("summary price : "))
+food = (summary_price/107)*100
+print("food :",food)
+vat = float(summary_price - food)
+print("vat :",vat)
+
+text = input("Input text: ")
+number = float(input("Input number: " ))
+print("I can print string with another datatype like this ->", text, (number+44.112))
